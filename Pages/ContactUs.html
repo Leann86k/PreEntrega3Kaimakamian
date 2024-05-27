@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kevork | Contáctanos</title>
+
+    <link rel="stylesheet" href="../Assets/css/style.css" />
+
+    <!-- posible tipografia <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    /> -->
+  </head>
+  <body>
+    <header class="small">
+      <img
+        src="./../Assets/Fotos/logo_cropped.jpg"
+        alt="logo empresa"
+        class="logoEmpresa"
+      />
+
+      <h1 class="title">Departamentos Kevork</h1>
+
+      <nav class="links">
+        <a href="./../index.html">Inicio</a>
+        <a href="./AboutUs.html">Sobre nosotros</a>
+        <a href="./Apartments.html">Departamentos</a>
+        <a href="./ContactUs.html">Contactanos</a>
+        <a href="./Location.html">Ubicación</a>
+      </nav>
+    </header>
+
+    <div class="main-container">
+      <div class="img-container">
+        <img src="../Assets/Fotos/front.jpg" alt="" class="form-image" />
+      </div>
+      <div class="form-container">
+        <h2>¿Cómo te podemos ayudar?</h2>
+        <div>
+          <p>
+            Por favor, te pedimos que llenes la mayor cantidad de datos para
+            resolver tu consulta lo más completa posible, muchas gracias
+          </p>
+        </div>
+        <form>
+          <div class="form-item">
+            <label for="userName"> Apellido y nombre </label>
+            <input
+              id="userName"
+              type="text"
+              placeholder="Ingresa tu apellido y nombre"
+              required
+            />
+          </div>
+          <div class="form-item">
+            <label for="userCountry"> Selecciona tu país </label>
+            <select name="userCountry" id="userCountry">
+              <option value="Blank">Selecciona un país</option>
+              <option value="AM">Armenia</option>
+              <option value="AR">Argentina</option>
+              <option value="BR">Brasil</option>
+              <option value="US">USA</option>
+              <option value="VE">Venezuela</option>
+              <option value="PY">Paraguay</option>
+              <option value="UR">Uruguay</option>
+              <option value="CH">Chile</option>
+              <option value="ES">España</option>
+              <option value="PR">Portugal</option>
+              <option value="Australia">Australia</option>
+              <option value="NZ">Nueva Zelanda</option>
+              <option value="Canada">Canada</option>
+              <option value="EC">Ecuador</option>
+              <option value="FR">Francia</option>
+            </select>
+          </div>
+          <div class="form-item">
+            <label for="userPhone"> Teléfono </label>
+            <input
+              id="userPhone"
+              type="number"
+              placeholder="Ingresa tu teléfono"
+              required
+            />
+          </div>
+          <div class="form-item">
+            <label for="userMail"> Correo electrónico </label>
+            <input
+              id="userMail"
+              type="text"
+              placeholder="Example@gmail.com"
+              required
+            />
+          </div>
+          <div class="form-item">
+            <label for="userArrivalDate"> Fecha de llegada </label>
+            <input
+              id="userArrivalDate"
+              type="date"
+              placeholder="Ingresa la fecha de llegada"
+              required
+            />
+          </div>
+          <div class="form-item">
+            <label for="userOutDate"> Fecha de salida </label>
+            <input
+              id="userOutDate"
+              type="date"
+              placeholder="Ingresa la fecha de salida"
+              required
+            />
+          </div>
+          <div class="form-item">
+            <label for="userEstimatedArrivalTime">
+              Horario estimado de llegada (Opcional)
+            </label>
+            <input
+              id="userEstimatedArrivalTime"
+              type="text"
+              placeholder="Horario estimado de llegada"
+            />
+          </div>
+
+          <div class="form-item">
+            <label for="userQuantitie"> cantidad de personas</label>
+            <input
+              id="userQuantitie"
+              type="number"
+              min="1"
+              max="8"
+              placeholder="Cantidad de personas"
+            />
+            <div class="form-item">
+              <label for="userDescription"> ¿algo más para decirnos?</label>
+              <textarea
+                name="userDescription"
+                id="userDescription"
+                cols="20"
+                rows="10"
+                placeholder="¿Algún dato extra que debamos saber?"
+              ></textarea>
+            </div>
+          </div>
+          <!--poner la opcion para que seleccione cuantos mayores y menores son-->
+
+          <div>
+            <input type="submit" value="Enviar consulta" />
+            <input type="reset" value="Limpiar todo" />
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <br />
+    <li><a href="./../index.html"> Volver al inicio</a></li>
+
+    <footer class="footer">
+      <div class="footer-section">
+        <h3>Nuestras redes</h3>
+        <ul>
+          <li>
+            <a href="#"
+              ><i class="fa fa-facebook-official social-icon"></i>Facebook</a
+            >
+          </li>
+          <li>
+            <a href="#"><i class="fa fa-instagram social-icon"></i>Instagram</a>
+          </li>
+        </ul>
+      </div>
+
+      <hr />
+      <div class="footer-section">
+        <h3>Contacto</h3>
+        <ul>
+          <li><i class="fa fa-phone info-icon"></i>(0299) 15435435432</li>
+          <li><i class="fa fa-envelope info-icon"></i>ajsdlfa@gmail.com</li>
+          <li><i class="fa fa-map-pin info-icon"></i>Av. San Martín 250</li>
+        </ul>
+      </div>
+
+      <hr />
+      <div class="footer-section all-rights-reserved">
+        Todos los derechos reservados 2024
+      </div>
+    </footer>
+  </body>
+</html>

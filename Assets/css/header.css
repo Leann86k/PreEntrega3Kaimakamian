@@ -1,0 +1,56 @@
+header {
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+  align-items: center;
+  width: 100%;
+}
+
+.logoEmpresa {
+  height: auto;
+  width: 200px;
+  margin: 25px;
+}
+
+.title {
+  color: gold;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  text-align: right;
+  margin-left: auto;
+  margin-right: 25px;
+}
+
+nav a {
+  color: gold;
+  display: flex;
+  flex-direction: column;
+  font-weight: 550;
+  text-decoration: none;
+  margin-bottom: 12px;
+}
+nav a:hover {
+  color: white;
+}
+
+.small .logoEmpresa {
+  width: 100px;
+  height: auto;
+}
+
+.small .title {
+  width: auto;
+}
+
+.small .links {
+  flex-direction: row;
+}
+
+.small nav a {
+  margin-bottom: 0;
+  margin-left: 10px;
+}
