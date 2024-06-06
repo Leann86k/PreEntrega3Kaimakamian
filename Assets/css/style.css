@@ -36,7 +36,7 @@ h3 {
 }
 
 h2 {
-  margin-left: 0px;
+  margin-left: 20px;
 }
 .footer li {
   list-style: none;
@@ -89,7 +89,7 @@ nav ul li {
 }
 
 .welcome-message {
-  padding: 30px;
+  padding: 20px;
 }
 .welcome-image {
   width: 100%;
@@ -205,6 +205,7 @@ nav a:hover {
 .form-image {
   width: 100%;
   height: auto;
+  margin-left: 20px;
 }
 
 .form-container {
