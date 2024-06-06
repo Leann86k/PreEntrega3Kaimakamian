@@ -31,128 +31,130 @@
       </nav>
     </header>
 
-    <div class="main-container">
-      <div class="img-container">
-        <img src="../Assets/Fotos/front.jpg" alt="" class="form-image" />
-      </div>
-      <div class="form-container">
-        <h2>¿Cómo te podemos ayudar?</h2>
-        <div>
-          <p>
-            Por favor, te pedimos que llenes la mayor cantidad de datos para
-            resolver tu consulta lo más completa posible, muchas gracias
-          </p>
+    <main>
+      <div class="main-container">
+        <div class="img-container">
+          <img src="../Assets/Fotos/front.jpg" alt="" class="form-image" />
         </div>
-        <form>
-          <div class="form-item">
-            <label for="userName"> Apellido y nombre </label>
-            <input
-              id="userName"
-              type="text"
-              placeholder="Ingresa tu apellido y nombre"
-              required
-            />
-          </div>
-          <div class="form-item">
-            <label for="userCountry"> Selecciona tu país </label>
-            <select name="userCountry" id="userCountry">
-              <option value="Blank">Selecciona un país</option>
-              <option value="AM">Armenia</option>
-              <option value="AR">Argentina</option>
-              <option value="BR">Brasil</option>
-              <option value="US">USA</option>
-              <option value="VE">Venezuela</option>
-              <option value="PY">Paraguay</option>
-              <option value="UR">Uruguay</option>
-              <option value="CH">Chile</option>
-              <option value="ES">España</option>
-              <option value="PR">Portugal</option>
-              <option value="Australia">Australia</option>
-              <option value="NZ">Nueva Zelanda</option>
-              <option value="Canada">Canada</option>
-              <option value="EC">Ecuador</option>
-              <option value="FR">Francia</option>
-            </select>
-          </div>
-          <div class="form-item">
-            <label for="userPhone"> Teléfono </label>
-            <input
-              id="userPhone"
-              type="number"
-              placeholder="Ingresa tu teléfono"
-              required
-            />
-          </div>
-          <div class="form-item">
-            <label for="userMail"> Correo electrónico </label>
-            <input
-              id="userMail"
-              type="text"
-              placeholder="Example@gmail.com"
-              required
-            />
-          </div>
-          <div class="form-item">
-            <label for="userArrivalDate"> Fecha de llegada </label>
-            <input
-              id="userArrivalDate"
-              type="date"
-              placeholder="Ingresa la fecha de llegada"
-              required
-            />
-          </div>
-          <div class="form-item">
-            <label for="userOutDate"> Fecha de salida </label>
-            <input
-              id="userOutDate"
-              type="date"
-              placeholder="Ingresa la fecha de salida"
-              required
-            />
-          </div>
-          <div class="form-item">
-            <label for="userEstimatedArrivalTime">
-              Horario estimado de llegada (Opcional)
-            </label>
-            <input
-              id="userEstimatedArrivalTime"
-              type="text"
-              placeholder="Horario estimado de llegada"
-            />
-          </div>
-
-          <div class="form-item">
-            <label for="userQuantitie"> cantidad de personas</label>
-            <input
-              id="userQuantitie"
-              type="number"
-              min="1"
-              max="8"
-              placeholder="Cantidad de personas"
-            />
-            <div class="form-item">
-              <label for="userDescription"> ¿algo más para decirnos?</label>
-              <textarea
-                name="userDescription"
-                id="userDescription"
-                cols="20"
-                rows="10"
-                placeholder="¿Algún dato extra que debamos saber?"
-              ></textarea>
-            </div>
-          </div>
-          <!--poner la opcion para que seleccione cuantos mayores y menores son-->
-
+        <div class="form-container">
+          <h2>¿Cómo te podemos ayudar?</h2>
           <div>
-            <input type="submit" value="Enviar consulta" />
-            <input type="reset" value="Limpiar todo" />
+            <p>
+              Por favor, te pedimos que llenes la mayor cantidad de datos para
+              resolver tu consulta lo más completa posible, muchas gracias
+            </p>
           </div>
-        </form>
-      </div>
-    </div>
+          <form>
+            <div class="form-item">
+              <label for="userName"> Apellido y nombre </label>
+              <input
+                id="userName"
+                type="text"
+                placeholder="Ingresa tu apellido y nombre"
+                required
+              />
+            </div>
+            <div class="form-item">
+              <label for="userCountry"> Selecciona tu país </label>
+              <select name="userCountry" id="userCountry">
+                <option value="Blank">Selecciona un país</option>
+                <option value="AM">Armenia</option>
+                <option value="AR">Argentina</option>
+                <option value="BR">Brasil</option>
+                <option value="US">USA</option>
+                <option value="VE">Venezuela</option>
+                <option value="PY">Paraguay</option>
+                <option value="UR">Uruguay</option>
+                <option value="CH">Chile</option>
+                <option value="ES">España</option>
+                <option value="PR">Portugal</option>
+                <option value="Australia">Australia</option>
+                <option value="NZ">Nueva Zelanda</option>
+                <option value="Canada">Canada</option>
+                <option value="EC">Ecuador</option>
+                <option value="FR">Francia</option>
+              </select>
+            </div>
+            <div class="form-item">
+              <label for="userPhone"> Teléfono </label>
+              <input
+                id="userPhone"
+                type="number"
+                placeholder="Ingresa tu teléfono"
+                required
+              />
+            </div>
+            <div class="form-item">
+              <label for="userMail"> Correo electrónico </label>
+              <input
+                id="userMail"
+                type="text"
+                placeholder="Example@gmail.com"
+                required
+              />
+            </div>
+            <div class="form-item">
+              <label for="userArrivalDate"> Fecha de llegada </label>
+              <input
+                id="userArrivalDate"
+                type="date"
+                placeholder="Ingresa la fecha de llegada"
+                required
+              />
+            </div>
+            <div class="form-item">
+              <label for="userOutDate"> Fecha de salida </label>
+              <input
+                id="userOutDate"
+                type="date"
+                placeholder="Ingresa la fecha de salida"
+                required
+              />
+            </div>
+            <div class="form-item">
+              <label for="userEstimatedArrivalTime">
+                Horario estimado de llegada (Opcional)
+              </label>
+              <input
+                id="userEstimatedArrivalTime"
+                type="text"
+                placeholder="Horario estimado de llegada"
+              />
+            </div>
 
-    <br />
-    <li><a href="./../index.html"> Volver al inicio</a></li>
+            <div class="form-item">
+              <label for="userQuantitie"> cantidad de personas</label>
+              <input
+                id="userQuantitie"
+                type="number"
+                min="1"
+                max="8"
+                placeholder="Cantidad de personas"
+              />
+              <div class="form-item">
+                <label for="userDescription"> ¿algo más para decirnos?</label>
+                <textarea
+                  name="userDescription"
+                  id="userDescription"
+                  cols="20"
+                  rows="10"
+                  placeholder="¿Algún dato extra que debamos saber?"
+                ></textarea>
+              </div>
+            </div>
+            <!--poner la opcion para que seleccione cuantos mayores y menores son-->
+
+            <div>
+              <input type="submit" value="Enviar consulta" />
+              <input type="reset" value="Limpiar todo" />
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <br />
+      <li><a href="./../index.html"> Volver al inicio</a></li>
+    </main>
 
     <footer class="footer">
       <div class="footer-section">
