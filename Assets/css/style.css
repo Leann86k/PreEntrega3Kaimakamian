@@ -89,7 +89,7 @@ nav ul li {
 }
 
 .welcome-message {
-  padding: 20px;
+  padding: 70 px;
 }
 .welcome-image {
   width: 100%;
@@ -102,6 +102,7 @@ nav ul li {
   justify-content: space-evenly;
   align-items: center;
   padding: 25px;
+  grid-area: container; /* (ACA VER ESTO) */
 }
 
 .info-section {
@@ -142,13 +143,14 @@ header {
 .title {
   color: gold;
   grid-area: title;
+  font-size: 40px;
 }
 
 .links {
   display: flex;
   flex-direction: column;
   background-color: black;
-  text-align: right;
+  text-align: center;
   /*margin-left: auto;
   margin-right: 25px;*/
   grid-area: links;
@@ -166,6 +168,7 @@ nav a {
   border-width: 4px;
   border-style: double;
   padding: 2px 10px 2px 10px;
+  font-size: 14px;
 }
 
 nav a:hover {
@@ -275,6 +278,7 @@ a {
   header {
     margin: 0 auto;
     height: auto;
+    width: 100%;
     flex-direction: column;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -295,6 +299,19 @@ a {
     height: auto;
     flex-direction: column;
     text-align: center;
+  }
+
+  .img-container {
+    height: 100%;
+    width: 100%;
+  }
+
+  .welcome-message {
+    width: 100%;
+  }
+  .welcome-container {
+    width: 100%;
+    display: block;
   }
 
   .links {
