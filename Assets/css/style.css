@@ -278,14 +278,6 @@ a {
   width: 40%;
 }
 
-/*.locationMap1 {
-  width: fit-content;
-  block-size: fit-content;
-}*/
-
-/*about us */
-
-/*------------------*/
 .welcome-message {
   font-size: 15px;
   text-align: justify;
@@ -360,6 +352,23 @@ a {
 
   .locationMap {
     margin-left: 100px;
+  }
+
+  .main-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+  }
+
+  .form-image {
+    width: 100%;
+    height: auto;
   }
 }
 
