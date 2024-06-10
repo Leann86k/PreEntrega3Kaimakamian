@@ -1,0 +1,31 @@
+{
+  "name": "complejo-kevork",
+  "version": "1.0.0",
+  "description": "Complejo de departamentos para alquiler en SMA",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Leann86k/preEntrega3Kaimakamian.git"
+  },
+  "keywords": [
+    "alojamiento",
+    "alquiler",
+    "departamentos",
+    "san",
+    "martin",
+    "de",
+    "los",
+    "andes",
+    "cordillera",
+    "neuquen"
+  ],
+  "author": "Leandro Kaimakamian",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Leann86k/preEntrega3Kaimakamian/issues"
+  },
+  "homepage": "https://github.com/Leann86k/preEntrega3Kaimakamian#readme"
+}
