@@ -148,8 +148,8 @@ header {
   flex-direction: column;
   background-color: black;
   text-align: center;
-  /*margin-left: auto;
-  margin-right: 25px;*/
+  margin-left: auto;
+  margin-right: 25px;
   grid-area: links;
 }
 
@@ -263,23 +263,37 @@ a {
   aspect-ratio: 3/2;
 }
 
+/*Location*/
+
+.locationDescription {
+  font-size: 16px;
+  padding: 25px;
+}
+
+.locationMap {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+/*.locationMap1 {
+  width: fit-content;
+  block-size: fit-content;
+}*/
+
 /*about us */
 
 /*------------------*/
 .welcome-message {
   font-size: 15px;
   text-align: justify;
+  padding: 25px;
 }
 
 .info-container {
   font-size: 15px;
-}
-
-/*Location*/
-
-.locationDescription {
-  font-size: 16px;
-  padding: 25px;
 }
 
 /*vista mobile*/
@@ -342,6 +356,10 @@ a {
 
   .footer-section {
     font-size: 12px;
+  }
+
+  .locationMap {
+    margin-left: 100px;
   }
 }
 
