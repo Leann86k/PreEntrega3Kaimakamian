@@ -256,6 +256,20 @@ a {
 .carousel-inner {
   width: 100%;
   aspect-ratio: 3/2;
+
+  height: 624px;
+}
+
+.carousel-item {
+  height: 100%;
+}
+
+.carousel-item img {
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: contain;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /*Location*/
