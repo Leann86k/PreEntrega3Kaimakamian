@@ -5,7 +5,8 @@
 -> footer en este caso (podria ser su propio css como lo es el header) */
 body {
   margin: 0;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 .footer {
@@ -29,6 +30,10 @@ body {
 h3 {
   margin: 20px;
   text-align: center;
+}
+
+.marginh3 {
+  margin-top: 15px !important;
 }
 
 h2 {
@@ -99,7 +104,7 @@ nav ul li {
 .info-container {
   display: flex;
   flex-direction: row;
-  align-items: center;
+  align-items: stretch;
   padding: 25px;
   grid-area: container; /* (ACA VER ESTO) */
 }
@@ -109,9 +114,10 @@ nav ul li {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 25%;
+  max-width: 25%;
   border: 1px solid gray;
   padding: 25px;
+  flex: 1;
 }
 
 .img-info {
@@ -226,7 +232,7 @@ textarea {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  align-items: center;
+  align-items: stretch;
   padding: 25px;
 }
 
@@ -267,6 +273,12 @@ a {
   margin-right: auto;
 }
 
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  background-color: black;
+  border-radius: 50%;
+}
+
 /*Location*/
 .locationDescription {
   font-size: 16px;
@@ -279,6 +291,10 @@ a {
   margin-left: auto;
   margin-right: auto;
   width: 40%;
+}
+
+.center {
+  margin: auto;
 }
 
 .welcome-message {
