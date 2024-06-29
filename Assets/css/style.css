@@ -350,7 +350,8 @@ a {
     margin: 0 auto;
   }
   .info-section {
-    width: auto;
+    width: 100%;
+    max-width: 100% !important;
   }
   .footer-section {
     font-size: 12px;
