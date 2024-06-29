@@ -1,0 +1,67 @@
+header {
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+  align-items: center;
+  width: 100%;
+}
+
+.logoEmpresa {
+  height: auto;
+  width: 200px;
+  margin: 25px;
+  grid-area: logoEmpresa;
+}
+
+.title {
+  color: gold;
+  grid-area: title;
+  font-size: 40px;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  text-align: center;
+  margin-left: auto;
+  margin-right: 25px;
+  grid-area: links;
+}
+
+nav a {
+  color: gold;
+  display: flex;
+  flex-direction: column;
+  font-weight: 550;
+  text-decoration: none;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  border-color: gold;
+  border-width: 4px;
+  border-style: double;
+  padding: 2px 10px 2px 10px;
+  font-size: 14px;
+}
+
+nav a:hover {
+  color: white;
+}
+
+.small .logoEmpresa {
+  width: 100px;
+  height: auto;
+}
+
+.small .title {
+  width: auto;
+}
+
+.small .links {
+  flex-direction: row;
+}
+
+.small nav a {
+  margin-bottom: 0;
+  margin-left: 10px;
+}
